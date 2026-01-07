@@ -1,0 +1,67 @@
+import type { Dessert } from './types';
+
+export const desserts: Dessert[] = [
+  {
+    id: 1,
+    name: "Waffle with Berries",
+    category: "Waffle",
+    price: 6.50,
+    image: "/asserts/image-waffle-desktop.jpg"
+  },
+  {
+    id: 2,
+    name: "Vanilla Bean Crème Brûlée",
+    category: "Crème Brûlée",
+    price: 7.00,
+    image: "/asserts/image-creme-brulee-desktop.jpg"
+  },
+  {
+    id: 3,
+    name: "Macaron Mix of Five",
+    category: "Macaron",
+    price: 8.00,
+    image: "/asserts/image-macaron-desktop.jpg"
+  },
+  {
+    id: 4,
+    name: "Classic Tiramisu",
+    category: "Tiramisu",
+    price: 5.50,
+    image: "/asserts/image-tiramisu-desktop.jpg"
+  },
+  {
+    id: 5,
+    name: "Pistachio Baklava",
+    category: "Baklava",
+    price: 4.00,
+    image: "/asserts/image-baklava-desktop.jpg"
+  },
+  {
+    id: 6,
+    name: "Lemon Meringue Pie",
+    category: "Pie",
+    price: 5.00,
+    image: "/asserts/image-meringue-desktop.jpg"
+  },
+  {
+    id: 7,
+    name: "Red Velvet Cake",
+    category: "Cake",
+    price: 4.50,
+    image: "/asserts/image-cake-desktop.jpg"
+  },
+  {
+    id: 8,
+    name: "Salted Caramel Brownie",
+    category: "Brownie",
+    price: 5.50,
+    image: "/asserts/image-brownie-desktop.jpg"
+  },
+  {
+    id: 9,
+    name: "Vanilla Panna Cotta",
+    category: "Panna Cotta",
+    price: 6.50,
+    image: "/asserts/image-panna-cotta-desktop.jpg"
+  }
+];
