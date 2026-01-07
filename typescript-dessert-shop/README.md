@@ -19,7 +19,7 @@ A modern, responsive dessert shop built with React, TypeScript, and Vite. Browse
 - **CSS3** - Styling with Grid and Flexbox
 - **ESLint** - Code linting
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -54,7 +54,7 @@ npm run build
 
 The built files will be in the `dist` directory.
 
-## 🎯 Usage
+##  Usage
 
 1. **Browse Desserts**: View the collection of available desserts
 2. **Add to Cart**: Click the cart button on any dessert to add it
