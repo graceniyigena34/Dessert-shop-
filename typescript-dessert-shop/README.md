@@ -1,8 +1,8 @@
-# 🍰 TypeScript Dessert Shop
+#  TypeScript Dessert Shop
 
 A modern, responsive dessert shop built with React, TypeScript, and Vite. Browse delicious desserts, add them to your cart, and place orders with a beautiful user interface.
 
-## ✨ Features
+##  Features
 
 - **Product Catalog**: Browse 9 different desserts with images and prices
 - **Shopping Cart**: Add/remove items with real-time quantity updates
@@ -11,7 +11,7 @@ A modern, responsive dessert shop built with React, TypeScript, and Vite. Browse
 - **TypeScript**: Full type safety throughout the application
 - **Modern UI**: Clean, intuitive interface with smooth animations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React 19** - UI library
 - **TypeScript** - Type safety
@@ -46,9 +46,9 @@ npm run dev
 
 4. Open your browser and visit `http://localhost:5173`
 
-## 📦 Build for Production
+##  Build for Production
 
-```bash
+
 npm run build
 ```
 
@@ -62,7 +62,7 @@ The built files will be in the `dist` directory.
 4. **Place Order**: Click "Confirm Order" to complete your purchase
 5. **Order Confirmation**: Review your order and start a new one
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -77,7 +77,7 @@ src/
 └── main.tsx            # Application entry point
 ```
 
-## 🎨 Available Desserts
+## Available Desserts
 
 - Waffle with Berries - $6.50
 - Vanilla Bean Crème Brûlée - $7.00
@@ -89,11 +89,11 @@ src/
 - Salted Caramel Brownie - $5.50
 - Vanilla Panna Cotta - $6.50
 
-## 🌐 Deployment
+## Deployment
 
-### Netlify (Recommended)
+
 1. Build the project: `npm run build`
-2. Drag the `dist` folder to [netlify.com](https://netlify.com)
+
 
 ### Vercel
 ```bash
@@ -115,7 +115,7 @@ The application is fully responsive and optimized for:
 - Tablet (768px - 1199px)
 - Mobile (< 768px)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -123,16 +123,13 @@ The application is fully responsive and optimized for:
 4. Push to branch: `git push origin feature-name`
 5. Submit a pull request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
 **Grace Niyigena**
 - GitHub: [@graceniyigena34](https://github.com/graceniyigena34)
 
-## 🙏 Acknowledgments
+#  Acknowledgments
 
 - Design inspiration from modern e-commerce interfaces
 - React and TypeScript communities for excellent documentation

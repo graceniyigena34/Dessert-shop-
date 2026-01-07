@@ -5,10 +5,17 @@ import type { CartItem, Dessert } from './types'
 import DessertCard from './components/DessertCard'
 import Cart from './components/Cart'
 import OrderConfirmation from './components/OrderConfirmation'
+import SearchBar from './components/SearchBar'
 
 function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>([])
   const [showOrderConfirmation, setShowOrderConfirmation] = useState(false)
+  const [searchTerm, setSearchTerm] = useState('')
+
+  const filteredDesserts = desserts.filter(dessert => 
+    dessert.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    dessert.category.toLowerCase().includes(searchTerm.toLowerCase())
+  )
 
   const addToCart = (dessert: Dessert) => {
     setCartItems(prev => {
@@ -46,8 +53,9 @@ function App() {
       <div className="container">
         <main className="main-content">
           <h1>Desserts</h1>
+          <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
           <div className="desserts-grid">
-            {desserts.map(dessert => (
+            {filteredDesserts.map(dessert => (
               <DessertCard
                 key={dessert.id}
                 dessert={dessert}
