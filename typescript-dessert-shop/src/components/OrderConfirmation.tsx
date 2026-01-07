@@ -12,7 +12,7 @@ export default function OrderConfirmation({ cartItems, onStartNewOrder }: OrderC
     <div className="modal-overlay">
       <div className="modal">
         <div className="modal-header">
-          <img src="./asserts/icon-order-confirmed.svg" alt="Order confirmed" />
+          <img src="icon-order-confirmed.svg" alt="Order confirmed" />
           <h2>Order Confirmed</h2>
           <p>We hope you enjoy your food!</p>
         </div>

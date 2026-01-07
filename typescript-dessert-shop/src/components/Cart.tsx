@@ -15,7 +15,7 @@ export default function Cart({ cartItems, onRemoveFromCart, onConfirmOrder }: Ca
       <div className="cart">
         <h2>Your Cart ({totalItems})</h2>
         <div className="empty-cart">
-          <img src="./asserts/illustration-empty-cart.svg" alt="Empty cart" />
+          <img src="illustration-empty-cart.svg" alt="Empty cart" />
           <p>Your added items will appear here</p>
         </div>
       </div>
