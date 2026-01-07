@@ -1,3 +1,5 @@
+The deployed link : https://dessert-shop-oyen.vercel.app/
+
 #  TypeScript Dessert Shop
 
 A modern, responsive dessert shop built with React, TypeScript, and Vite. Browse delicious desserts, add them to your cart, and place orders with a beautiful user interface.
